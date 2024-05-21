@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-container {
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.parallax-background {
+    background-image: url('myimg2.jpg'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:azure;   
+}
+
+.content {
+    padding: 50px;
+    background-color:cadetblue;
+    text-align:center;
+    
+}
